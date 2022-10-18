@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- search popup -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--  font solaymanilipi -->
+    <link href="https://fonts.maateen.me/solaiman-lipi/font.css" rel="stylesheet">
+    <!-- font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- solaimanlipi -->
+    
+       <!-- tiny slider
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css"> -->
+    
+    <!-- Main Css  -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- responsive css link -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <title>news-pepper</title>
+  </head>
+  <body>
+    
+
+    <header class="header-area"> 
+        <div class="container-fluid bgg">
+            <div class="container">
+                <div class="row">
+                    <div class="top-nav">
+                        <ul class="time-date">
+                            <li class="date"><a href="#">বুধবার, ৭ জুলাই ২০২১</a></li>
+                            <li><a href="#"><i class="far fa-clock"></i> আপডেট: ১২ মিনিট পূর্বে</a></li>
+                        </ul>
+                        <ul class="social-icon">
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="#"><i class="fas fa-wifi"></i></a></li>
+                        </ul>
+                    </div>    
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="row logoimg">
+                <div class="logo-img">
+                    <a href="Index.html"><img class="img-fluid" src="assets/image/logo.webp" alt="Logo"></a>
+                    <div>
+                        
+                    </div>
+                </div>
+                <div class="s-box">
+                    <div id="myOverlay" class="overlay">
+                        <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+                        <div class="overlay-content">
+                            <form action="/action_page.php">
+                            <input type="text" placeholder="Search.." name="search">
+                            <button type="submit"><i class="fa fa-search"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="topNav">
+                        <h6> <span><i class="far fa-calendar-alt"></i></span> বুধবার, ৭ জুলাই ২০২১, ২৭ আষাঢ় ১৪২৮</h6>
+                    </div>   
+                </div>
+                <div class="icon-social">
+                    <ul class="">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="#"><i class="fas fa-wifi"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <div class="container-fluid ctnr">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg navbar-light mdf-nav">
+                    <div class="container ctnr" style="padding: 0;position: relative;">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="mullty.html">প্রচ্ছদ</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="mullty.html">কক্সবাজার</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="mullty.html">দেশ</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="mullty.html">চট্টগ্রাম</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="mullty.html">খেলাধূলা</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="mullty.html">পর্যটন</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="mullty.html">রকমারী</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="mullty.html">বিশ্ব</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="mullty.html">প্রযুক্তি</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="mullty.html">বিনোদন</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="mullty.html">রাজনীতি</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="mullty.html">শিক্ষাঙ্গন</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            আরো
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <form class="d-flex">
+                                <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                                
+                                <button class="btn btn-outline-success" type="submit"><i class="fa fa-search"></i></button>
+                                </form>
+                            </div>
+                            <div class="icon-search">
+                                <i class="fas fa-search" class="openBtn" onclick="openSearch()"></i>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                
+            </div>
+        </div>
+    </nav>
+    <!-- single-page here start -->
+    <section class="single-page">
+        <div class="container">
+            <div class="row pt-3 pb-3">
+                <div class="step-to-step">
+                    <p>
+                        প্রচ্ছদ » কক্সবাজার » টেকনাফ বাহারছড়ায় ৬০ হাজার পিস ইয়াবাসহ আটক -১
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container pb-3">
+            <div class="row mull-news">
+                <div class="col-md-4 col-lg-2">
+                    <div class="img-mull ">
+                        <img src="assets/image/coxbazar/CORONA-LOCKDOWN-TIME.webp" alt="news-img">
+                    </div>
+                </div>
+                <div class="col-md-8 col-lg-10">
+                    <div class="details-mull">
+                        <a href="singlePage.html"><h1>বাংলাদেশি এনআইআডি ও পাসপোর্ট তৈরি করা রোহিঙ্গা আটক </h1></a>
+                        <div class="dt"><p> প্রকাশিত : ১৫ জুলাই, ২০২১ </p></div>
+                        <p class="dtl">অনলাইন ডেস্ক: কক্সবাজারে বাংলাদেশি ভুয়া পাসপোর্ট ও জাতীয় পরিচয়পত্র তৈরির কাজে জড়িত থাকায় এক রোহিঙ্গা নাগরিককে আটক করেছেন আর্মড পুলিশ ব্যাটালিয়ানের সদস্যরা। বুধবার (১৪ জুলাই) রাত ১১টায় বিষয়টি নিশ্চিত করেছেন ১৬ আর্মড পুলিশ ব্যাটালিয়ানের অধিনায়ক তারিকুল ইসলাম। আটককৃত রোহিঙ্গা ব্যক্তি </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container pb-3">
+            <div class="row mull-news">
+                <div class="col-md-4 col-lg-2">
+                    <div class="img-mull">
+                        <img src="assets/image/coxbazar/CORONA-LOCKDOWN-TIME.webp" alt="news-img">
+                    </div>
+                </div>
+                <div class="col-md-8 col-lg-10">
+                    <div class="details-mull">
+                        <a href="singlePage.html"><h1>বাংলাদেশি এনআইআডি ও পাসপোর্ট তৈরি করা রোহিঙ্গা আটক </h1></a>
+                        <div class="dt"><p> প্রকাশিত : ১৫ জুলাই, ২০২১ </p></div>
+                        <p class="dtl">অনলাইন ডেস্ক: কক্সবাজারে বাংলাদেশি ভুয়া পাসপোর্ট ও জাতীয় পরিচয়পত্র তৈরির কাজে জড়িত থাকায় এক রোহিঙ্গা নাগরিককে আটক করেছেন আর্মড পুলিশ ব্যাটালিয়ানের সদস্যরা। বুধবার (১৪ জুলাই) রাত ১১টায় বিষয়টি নিশ্চিত করেছেন ১৬ আর্মড পুলিশ ব্যাটালিয়ানের অধিনায়ক তারিকুল ইসলাম। আটককৃত রোহিঙ্গা ব্যক্তি </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container pb-3">
+            <div class="row mull-news">
+                <div class="col-md-4 col-lg-2">
+                    <div class="img-mull">
+                        <img src="assets/image/coxbazar/CORONA-LOCKDOWN-TIME.webp" alt="news-img">
+                    </div>
+                </div>
+                <div class="col-md-8 col-lg-10">
+                    <div class="details-mull">
+                        <a href="singlePage.html"><h1>বাংলাদেশি এনআইআডি ও পাসপোর্ট তৈরি করা রোহিঙ্গা আটক </h1></a>
+                        <div class="dt"><p> প্রকাশিত : ১৫ জুলাই, ২০২১ </p></div>
+                        <p class="dtl">অনলাইন ডেস্ক: কক্সবাজারে বাংলাদেশি ভুয়া পাসপোর্ট ও জাতীয় পরিচয়পত্র তৈরির কাজে জড়িত থাকায় এক রোহিঙ্গা নাগরিককে আটক করেছেন আর্মড পুলিশ ব্যাটালিয়ানের সদস্যরা। বুধবার (১৪ জুলাই) রাত ১১টায় বিষয়টি নিশ্চিত করেছেন ১৬ আর্মড পুলিশ ব্যাটালিয়ানের অধিনায়ক তারিকুল ইসলাম। আটককৃত রোহিঙ্গা ব্যক্তি </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </section>    
+     <footer class="footer-section" style="background-image: url('1.png');">
+        <div class="container-fluid footer-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="nav-footer">
+                        <ul>
+                            <li><a href="#">প্রচ্ছদ</a></li>
+                            <li><a href="#">কক্সবাজার</a></li>
+                            <li><a href="#">দেশ</a></li>
+                            <li><a href="#">চট্টগ্রাম</a></li>
+                            <li><a href="#">খেলাধূলা</a></li>
+                            <li><a href="#">পর্যটন</a></li>
+                            <li><a href="#">রকমারী</a></li>
+                            <li><a href="#">বিশ্ব</a></li>
+                            <li><a href="#">প্রযুক্তি</a></li>
+                            <li><a href="#">বিনোদন</a></li>
+                            <li><a href="#">রাজনীতি</a></li>
+                            <li><a href="#">শিক্ষাঙ্গন</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bg-footer">
+            <div class="container">
+                <div class="row pt-3">
+                    <div class="col-md-3">
+                        <div class="logoimg-footer">
+                            <div class="logo-img text-center">
+                                <img src="assets/image/logo.webp" alt="Logo">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <h6>Editor: Prof. Akter Chowdhury</h6>
+                        <p><i class="far fa-envelope"></i> Email: projonmoit@gmail.com</p>
+                        <p><i class="fas fa-phone-volume"></i> phone: 01518341210</p>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="location">
+                            <p><i class="fas fa-map-marker-alt"></i> Office Address: Chowdhury Bhaban, 3rd floor, Rumaliarchara, Cox’sbazar, Bangladesh.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="playstor">
+                            <img src="assets/image/footer/play-e1585375827512.webp" alt="Logo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid copyright-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="copy-right text-center">
+                        <p>Copyright Coxsbazarnews 2020 | Developed By Bangla Newspaper</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+
+    <!-- video gallery -->
+    <script>
+        var videoPlayer = document.getElementById("videoPlayer");
+        var myVideo = document.getElementById("myVideo");
+
+        function stopVideo(){
+            videoPlayer.style.display = "none";
+        }
+
+        function playVideo(file){
+            myVideo.src = file;
+            videoPlayer.style.display = "block";
+        }
+
+    </script>
+    <!-- search popup -->
+    <script>
+        function openSearch() {
+          document.getElementById("myOverlay").style.display = "block";
+        }
+        
+        function closeSearch() {
+          document.getElementById("myOverlay").style.display = "none";
+        }
+        </script>
+   
+  </body>
+</html>

@@ -1,0 +1,576 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- search popup -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--  font solaymanilipi -->
+    <link href="https://fonts.maateen.me/solaiman-lipi/font.css" rel="stylesheet">
+    <!-- font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- solaimanlipi -->
+    
+       <!-- tiny slider
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css"> -->
+    
+    <!-- Main Css  -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- responsive css link -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <title>news-pepper</title>
+  </head>
+  <body>
+    
+
+    <header class="header-area"> 
+        <div class="container-fluid bgg">
+            <div class="container">
+                <div class="row">
+                    <div class="top-nav">
+                        <ul class="time-date">
+                            <li class="date"><a href="#">বুধবার, ৭ জুলাই ২০২১</a></li>
+                            <li><a href="#"><i class="far fa-clock"></i> আপডেট: ১২ মিনিট পূর্বে</a></li>
+                        </ul>
+                        <ul class="social-icon">
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="#"><i class="fas fa-wifi"></i></a></li>
+                        </ul>
+                    </div>    
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="row logoimg">
+                <div class="logo-img">
+                    <a href="Index.html"><img class="img-fluid" src="assets/image/logo.webp" alt="Logo"></a>
+                    <div>
+                        
+                    </div>
+                </div>
+                <div class="s-box">
+                    <div id="myOverlay" class="overlay">
+                        <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+                        <div class="overlay-content">
+                            <form action="/action_page.php">
+                            <input type="text" placeholder="Search.." name="search">
+                            <button type="submit"><i class="fa fa-search"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="topNav">
+                        <h6> <span><i class="far fa-calendar-alt"></i></span> বুধবার, ৭ জুলাই ২০২১, ২৭ আষাঢ় ১৪২৮</h6>
+                    </div>   
+                </div>
+                <div class="icon-social">
+                    <ul class="">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="#"><i class="fas fa-wifi"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <div class="container-fluid ctnr">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg navbar-light mdf-nav">
+                    <div class="container ctnr" style="padding: 0;position: relative;">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="mullty.html">প্রচ্ছদ</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="mullty.html">কক্সবাজার</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="mullty.html">দেশ</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="mullty.html">চট্টগ্রাম</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="mullty.html">খেলাধূলা</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="mullty.html">পর্যটন</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="mullty.html">রকমারী</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="mullty.html">বিশ্ব</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="mullty.html">প্রযুক্তি</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="mullty.html">বিনোদন</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="mullty.html">রাজনীতি</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="mullty.html">শিক্ষাঙ্গন</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            আরো
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <form class="d-flex">
+                                <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                                
+                                <button class="btn btn-outline-success" type="submit"><i class="fa fa-search"></i></button>
+                                </form>
+                            </div>
+                            <div class="icon-search">
+                                <i class="fas fa-search" class="openBtn" onclick="openSearch()"></i>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                
+            </div>
+        </div>
+    </nav>
+    <!-- single-page here start -->
+    <section class="single-page">
+        <div class="container">
+            <div class="row pt-3 pb-3">
+                <div class="step-to-step">
+                    <p>
+                        প্রচ্ছদ » কক্সবাজার » টেকনাফ বাহারছড়ায় ৬০ হাজার পিস ইয়াবাসহ আটক -১
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container pb-5">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="head-news-s">
+                            <a href="#"><h2>টেকনাফ বাহারছড়ায় ৬০ হাজার পিস ইয়াবাসহ আটক -১</h2></a>
+                            <p>প্রকাশ: ১৪ জুলাই, ২০২১ ০৩:৩৬ , আপডেট: ১৪ জুলাই, ২০২১ ১০:১৫ </p>
+                            <img src="assets/image/single-page/yaba-teknaf-1.webp" alt="heade-image">
+                        </div>
+                    </div>
+                    <div class="row pt-5">
+                        <div class="img-details-s">
+                           
+                                <i class="fab fa-facebook-f fb"> share 45</i>
+                                <i class="far fa-thumbs-up"> like 45</i>
+                            
+                            <div class="paragraph-s">
+                                <p>মোঃ আরাফাত সানী, টেকনাফ : <br><br>
+
+                                    কক্সবাজারের টেকনাফ মডেল থানা পুলিশের অভিযান চালিয়ে ৬০ হাজার পিস ইয়াবা ট্যাবলেটসহ একজন মাদক ব্যবসায়ী গ্রেফতার করা হয় <br><br>
+                                    
+                                    মঙ্গলবার (১৩ জুলাই) রাত পৌনে ১২ টার দিকে টেকনাফ মডেল থানা পুলিশের একটি চৌকষ টিম মাদক বিরোধী অভিযান পরিচালনা করে টেকনাফ থানাধীন বাহারছড়া ইউপিস্থ কচ্চপিয়া এলাকা হতে বাহারছড়া ইউপির কচ্চপিয়া এলাকার রশিদ আহম্মেদ ছেলে মোহাম্মদ ইউনুস। <br><br>
+                                    
+                                    টেকনাফ মডেল থানার ওসি মোঃ হাফিজুর রহমান জানান, গোপন সংবাদ ভিত্তিতে উপজেলা বাহারছড়া ইউনিয়নের কচ্চপিয়া ৮ নং ওয়ার্ডে (ক্রিনিশ ভাংগা) এলাকায় অভিযান চালিয়ে ৬০ হাজার পিস ইয়াবা ট্যাবলেটসহ একজন মাদক ব্যবসায়ী গ্রেফতার করা হয়। এ সময় কারবারে ব্যবহৃত এক টি মোবাইলও উপস্থিত স্থানীয় জনগন ও সাক্ষীদের সামনে জব্দ করা হয়। <br><br>
+                                    
+                                    তিনি আরও জানান আটককৃত আসামি জব্দ কৃত মাদক সহ মাদক আইনে মামলা দায়েরের পর কক্সবাজার আদালত প্রেরন করা হয়েছে।</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row pt-3">
+                        <div class="comment-s">
+                            <div class="notice">
+                                    <p>আমরা সংবিধান ও জনমতের প্রতি শ্রদ্ধাশীল। তাই ধর্ম ও রাষ্ট্রবিরোধী এবং উষ্কানীমূলক কোনো বক্তব্য না করার জন্য পাঠকদের অনুরোধ করা হলো। কর্তৃপক্ষ যেকোনো ধরণের আপত্তিকর মন্তব্য মডারেশনের ক্ষমতা রাখেন।</p>
+                            </div>
+                            <div class="comment-shortby">
+                                <div class="cmnt-s">
+                                    <h5>পাঠকের মন্তব্যঃ </h5>
+                                    <h6>0 comments</h6>
+                                </div>
+                                <div class="cmnt-s">
+                                    <label for="cars">short by:</label>
+                                    <select name="cars" id="cars">
+                                        <option value="volvo">newest</option>
+                                        <option value="saab">oldest</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="text-type">
+                                <textarea id="" cols="30" rows="10"></textarea>
+                                <input type="submit" value="Send Message">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="single-ad">
+                        <img src="assets/image/single-page/addd/kharulia-cow-haat-14.7.2021.webp" alt=""> 
+                    </div>
+                    <div class="single-ad">
+                        <img src="assets/image/single-page/addd/cow.webp" alt=""> 
+                    </div>
+                    <div class="single-ad">
+                        <img src="assets/image/single-page/addd/CBN-COVER_1.webp" alt=""> 
+                    </div>
+                    <div class="single-ad">
+                        <img src="assets/image/single-page/addd/cow.webp" alt=""> 
+                    </div>
+                    <div class="single-ad">
+                        <div class="archiv-calender">
+                            <h3>আর্কাইভ</h3>
+                        </div>
+                        <div id="ajax_ac_widget" class="clndr">
+                            <div class="select_ca">
+                                <select name="month" id="my_month">
+                                    <option value="01">January</option><option value="02">February</option><option value="03">March</option><option value="04">April</option><option value="05">May</option><option value="06">June</option><option value="07" selected="selected">July</option><option value="08">August</option><option value="09">September</option><option value="10">October</option><option value="11">November</option><option value="12">December</option>				</select>
+                
+                                     
+                
+                                <select name="Year" id="my_year">
+                                <option value="2016">2016</option><option value="2017">2017</option><option value="2018">2018</option><option value="2019">2019</option><option value="2020">2020</option><option value="2021" selected="selected">2021</option><option value="2022">2022</option><option value="2023">2023</option><option value="2024">2024</option><option value="2025">2025</option><option value="2026">2026</option>
+                                </select>
+                            </div><!--select ca -->
+                            <div class="clear" style="clear:both; margin-bottom: 5px;"></div>
+                            <div class="ajax-calendar">
+                            <div class="aj-loging" style="left: 49%;position: absolute;top: 50%; display:none"><img src="//i0.wp.com/www.coxsbazarnews.com/wp-content/plugins/ajax-archive-calendar/loading.gif"></div>
+                            
+                                <div id="my_calender">
+                                    <table id="my-calendar">
+                                        <thead>
+                                            <tr>
+                                                <th class="Mon" scope="col" title="Monday">Mon</th>
+                                                <th class="Tue" scope="col" title="Tuesday">Tue</th>
+                                                <th class="Wed" scope="col" title="Wednesday">Wed</th>
+                                                <th class="Thu" scope="col" title="Thursday">Thu</th>
+                                                <th class="Fri" scope="col" title="Friday">Fri</th>
+                                                <th class="Sat" scope="col" title="Saturday">Sat</th>
+                                                <th class="Sun" scope="col" title="Sunday">Sun</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="notday"><span class="notpost">12</span></td><td class="notday"><span class="notpost">13</span></td><td class="notday"><span class="notpost">14</span></td><td class="notday"><span class="notpost">15</span></td><td class="notday"><span class="notpost">16</span></td><td class="notday"><span class="notpost">17</span></td><td class="notday"><span class="notpost">18</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="notday"><span class="notpost">19</span></td><td class="notday"><span class="notpost">20</span></td><td class="notday"><span class="notpost">21</span></td><td class="notday"><span class="notpost">22</span></td><td class="notday"><span class="notpost">23</span></td><td class="notday"><span class="notpost">24</span></td><td class="notday"><span class="notpost">25</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="notday"><span class="notpost">26</span></td><td class="notday"><span class="notpost">27</span></td><td class="notday"><span class="notpost">28</span></td><td class="notday"><span class="notpost">29</span></td><td class="notday"><span class="notpost">30</span></td><td class="notday"><span class="notpost">31</span></td>
+                                                <td class="pad" colspan="1">&nbsp;</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div><!--my_calender -->
+                                <div class="clear" style="clear:both; margin-bottom: 5px;">
+                                </div>
+                            </div>
+                            <script type="text/javascript">
+                                jQuery('#my_month,#my_year').change(function (e) {
+                                    var bna=0;					jQuery(".aj-loging").css("display", "block");
+                                    jQuery("#my_calender").css("opacity", "0.30");
+                                    var mon = jQuery('#my_month').val();
+                                    var year = jQuery('#my_year').val();
+                                    var to = year + mon;
+                                    var data = {
+                                        action: 'ajax_ac',
+                                        ma: to,
+                                        bn:bna,
+                
+                                    };
+                
+                                    // since 2.8 ajaxurl is always defined in the admin header and points to admin-ajax.php
+                                    jQuery.get(ajaxurl, data, function (response) {
+                                        jQuery("#my_calender").html(response);
+                                        jQuery(".aj-loging").css("display", "none");
+                                        jQuery("#my_calender").css("opacity", "1.00");
+                                    });
+                
+                                });
+                            
+                            </script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- single-page here end -->
+    <section class="single-all-news">
+        <div class="container">
+            <div class="row pb-3">
+                <div class="col-lg-3 col-md-6 pb-2">
+                    <div class="jatio-news">
+                        <div class="jatio">
+                            <img src="assets/image/coxbazar/CORONA-LOCKDOWN-TIME.webp" alt="">
+                            <div class="jatio-text">
+                                <p class="tim"><i class="far fa-clock"></i> আপডেট: ১২ মিনিট পূর্বে</p>
+                            </div>
+                        </div>
+                        <h5>অ্যাকশনএইডে চাকরির নিয়োগ বিজ্ঞপ্তি</h5>
+                        <p>কোপা আমেরিকার সেমিফাইনালে আবারও সেই পেরুকে পেয়ে সহজেই উতরে যাওয়ার কথা বর্তমান চ্যাম্পিয়নদের। কিন্তু যতটা সহজ ভাবা হয়েছিল ঠিক ততটাই ...</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 pb-2">
+                    <div class="jatio-news">
+                        <div class="jatio">
+                            <img src="assets/image/coxbazar/CORONA-LOCKDOWN-TIME.webp" alt="">
+                            <div class="jatio-text">
+                                <p class="tim"><i class="far fa-clock"></i> আপডেট: ১২ মিনিট পূর্বে</p>
+                            </div>
+                        </div>
+                        <h5>অ্যাকশনএইডে চাকরির নিয়োগ বিজ্ঞপ্তি</h5>
+                        <p>কোপা আমেরিকার সেমিফাইনালে আবারও সেই পেরুকে পেয়ে সহজেই উতরে যাওয়ার কথা বর্তমান চ্যাম্পিয়নদের। কিন্তু যতটা সহজ ভাবা হয়েছিল ঠিক ততটাই ...</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 pb-2">
+                    <div class="jatio-news">
+                        <div class="jatio">
+                            <img src="assets/image/coxbazar/CORONA-LOCKDOWN-TIME.webp" alt="">
+                            <div class="jatio-text">
+                                <p class="tim"><i class="far fa-clock"></i> আপডেট: ১২ মিনিট পূর্বে</p>
+                            </div>
+                        </div>
+                        <h5>অ্যাকশনএইডে চাকরির নিয়োগ বিজ্ঞপ্তি</h5>
+                        <p>কোপা আমেরিকার সেমিফাইনালে আবারও সেই পেরুকে পেয়ে সহজেই উতরে যাওয়ার কথা বর্তমান চ্যাম্পিয়নদের। কিন্তু যতটা সহজ ভাবা হয়েছিল ঠিক ততটাই ...</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 pb-2">
+                    <div class="jatio-news">
+                        <div class="jatio">
+                            <img src="assets/image/coxbazar/CORONA-LOCKDOWN-TIME.webp" alt="">
+                            <div class="jatio-text">
+                                <p class="tim"><i class="far fa-clock"></i> আপডেট: ১২ মিনিট পূর্বে</p>
+                            </div>
+                        </div>
+                        <h5>অ্যাকশনএইডে চাকরির নিয়োগ বিজ্ঞপ্তি</h5>
+                        <p>কোপা আমেরিকার সেমিফাইনালে আবারও সেই পেরুকে পেয়ে সহজেই উতরে যাওয়ার কথা বর্তমান চ্যাম্পিয়নদের। কিন্তু যতটা সহজ ভাবা হয়েছিল ঠিক ততটাই ...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row pb-3">
+                <div class="col-lg-3 col-md-6 pb-2">
+                    <div class="jatio-news">
+                        <div class="jatio">
+                            <img src="assets/image/coxbazar/CORONA-LOCKDOWN-TIME.webp" alt="">
+                            <div class="jatio-text">
+                                <p class="tim"><i class="far fa-clock"></i> আপডেট: ১২ মিনিট পূর্বে</p>
+                            </div>
+                        </div>
+                        <h5>অ্যাকশনএইডে চাকরির নিয়োগ বিজ্ঞপ্তি</h5>
+                        <p>কোপা আমেরিকার সেমিফাইনালে আবারও সেই পেরুকে পেয়ে সহজেই উতরে যাওয়ার কথা বর্তমান চ্যাম্পিয়নদের। কিন্তু যতটা সহজ ভাবা হয়েছিল ঠিক ততটাই ...</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 pb-2">
+                    <div class="jatio-news">
+                        <div class="jatio">
+                            <img src="assets/image/coxbazar/CORONA-LOCKDOWN-TIME.webp" alt="">
+                            <div class="jatio-text">
+                                <p class="tim"><i class="far fa-clock"></i> আপডেট: ১২ মিনিট পূর্বে</p>
+                            </div>
+                        </div>
+                        <h5>অ্যাকশনএইডে চাকরির নিয়োগ বিজ্ঞপ্তি</h5>
+                        <p>কোপা আমেরিকার সেমিফাইনালে আবারও সেই পেরুকে পেয়ে সহজেই উতরে যাওয়ার কথা বর্তমান চ্যাম্পিয়নদের। কিন্তু যতটা সহজ ভাবা হয়েছিল ঠিক ততটাই ...</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 pb-2">
+                    <div class="jatio-news">
+                        <div class="jatio">
+                            <img src="assets/image/coxbazar/CORONA-LOCKDOWN-TIME.webp" alt="">
+                            <div class="jatio-text">
+                                <p class="tim"><i class="far fa-clock"></i> আপডেট: ১২ মিনিট পূর্বে</p>
+                            </div>
+                        </div>
+                        <h5>অ্যাকশনএইডে চাকরির নিয়োগ বিজ্ঞপ্তি</h5>
+                        <p>কোপা আমেরিকার সেমিফাইনালে আবারও সেই পেরুকে পেয়ে সহজেই উতরে যাওয়ার কথা বর্তমান চ্যাম্পিয়নদের। কিন্তু যতটা সহজ ভাবা হয়েছিল ঠিক ততটাই ...</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 pb-2">
+                    <div class="jatio-news">
+                        <div class="jatio">
+                            <img src="assets/image/coxbazar/CORONA-LOCKDOWN-TIME.webp" alt="">
+                            <div class="jatio-text">
+                                <p class="tim"><i class="far fa-clock"></i> আপডেট: ১২ মিনিট পূর্বে</p>
+                            </div>
+                        </div>
+                        <h5>অ্যাকশনএইডে চাকরির নিয়োগ বিজ্ঞপ্তি</h5>
+                        <p>কোপা আমেরিকার সেমিফাইনালে আবারও সেই পেরুকে পেয়ে সহজেই উতরে যাওয়ার কথা বর্তমান চ্যাম্পিয়নদের। কিন্তু যতটা সহজ ভাবা হয়েছিল ঠিক ততটাই ...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row pb-3">
+                <div class="col-lg-3 col-md-6 pb-2">
+                    <div class="jatio-news">
+                        <div class="jatio">
+                            <img src="assets/image/coxbazar/CORONA-LOCKDOWN-TIME.webp" alt="">
+                            <div class="jatio-text">
+                                <p class="tim"><i class="far fa-clock"></i> আপডেট: ১২ মিনিট পূর্বে</p>
+                            </div>
+                        </div>
+                        <h5>অ্যাকশনএইডে চাকরির নিয়োগ বিজ্ঞপ্তি</h5>
+                        <p>কোপা আমেরিকার সেমিফাইনালে আবারও সেই পেরুকে পেয়ে সহজেই উতরে যাওয়ার কথা বর্তমান চ্যাম্পিয়নদের। কিন্তু যতটা সহজ ভাবা হয়েছিল ঠিক ততটাই ...</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 pb-2">
+                    <div class="jatio-news">
+                        <div class="jatio">
+                            <img src="assets/image/coxbazar/CORONA-LOCKDOWN-TIME.webp" alt="">
+                            <div class="jatio-text">
+                                <p class="tim"><i class="far fa-clock"></i> আপডেট: ১২ মিনিট পূর্বে</p>
+                            </div>
+                        </div>
+                        <h5>অ্যাকশনএইডে চাকরির নিয়োগ বিজ্ঞপ্তি</h5>
+                        <p>কোপা আমেরিকার সেমিফাইনালে আবারও সেই পেরুকে পেয়ে সহজেই উতরে যাওয়ার কথা বর্তমান চ্যাম্পিয়নদের। কিন্তু যতটা সহজ ভাবা হয়েছিল ঠিক ততটাই ...</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 pb-2">
+                    <div class="jatio-news">
+                        <div class="jatio">
+                            <img src="assets/image/coxbazar/CORONA-LOCKDOWN-TIME.webp" alt="">
+                            <div class="jatio-text">
+                                <p class="tim"><i class="far fa-clock"></i> আপডেট: ১২ মিনিট পূর্বে</p>
+                            </div>
+                        </div>
+                        <h5>অ্যাকশনএইডে চাকরির নিয়োগ বিজ্ঞপ্তি</h5>
+                        <p>কোপা আমেরিকার সেমিফাইনালে আবারও সেই পেরুকে পেয়ে সহজেই উতরে যাওয়ার কথা বর্তমান চ্যাম্পিয়নদের। কিন্তু যতটা সহজ ভাবা হয়েছিল ঠিক ততটাই ...</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 pb-2">
+                    <div class="jatio-news">
+                        <div class="jatio">
+                            <img src="assets/image/coxbazar/CORONA-LOCKDOWN-TIME.webp" alt="">
+                            <div class="jatio-text">
+                                <p class="tim"><i class="far fa-clock"></i> আপডেট: ১২ মিনিট পূর্বে</p>
+                            </div>
+                        </div>
+                        <h5>অ্যাকশনএইডে চাকরির নিয়োগ বিজ্ঞপ্তি</h5>
+                        <p>কোপা আমেরিকার সেমিফাইনালে আবারও সেই পেরুকে পেয়ে সহজেই উতরে যাওয়ার কথা বর্তমান চ্যাম্পিয়নদের। কিন্তু যতটা সহজ ভাবা হয়েছিল ঠিক ততটাই ...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     <footer class="footer-section" style="background-image: url('1.png');">
+        <div class="container-fluid footer-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="nav-footer">
+                        <ul>
+                            <li><a href="#">প্রচ্ছদ</a></li>
+                            <li><a href="#">কক্সবাজার</a></li>
+                            <li><a href="#">দেশ</a></li>
+                            <li><a href="#">চট্টগ্রাম</a></li>
+                            <li><a href="#">খেলাধূলা</a></li>
+                            <li><a href="#">পর্যটন</a></li>
+                            <li><a href="#">রকমারী</a></li>
+                            <li><a href="#">বিশ্ব</a></li>
+                            <li><a href="#">প্রযুক্তি</a></li>
+                            <li><a href="#">বিনোদন</a></li>
+                            <li><a href="#">রাজনীতি</a></li>
+                            <li><a href="#">শিক্ষাঙ্গন</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bg-footer">
+            <div class="container">
+                <div class="row pt-3">
+                    <div class="col-md-3">
+                        <div class="logoimg-footer">
+                            <div class="logo-img text-center">
+                                <img src="assets/image/logo.webp" alt="Logo">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <h6>Editor: Prof. Akter Chowdhury</h6>
+                        <p><i class="far fa-envelope"></i> Email: projonmoit@gmail.com</p>
+                        <p><i class="fas fa-phone-volume"></i> phone: 01518341210</p>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="location">
+                            <p><i class="fas fa-map-marker-alt"></i> Office Address: Chowdhury Bhaban, 3rd floor, Rumaliarchara, Cox’sbazar, Bangladesh.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="playstor">
+                            <img src="assets/image/footer/play-e1585375827512.webp" alt="Logo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid copyright-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="copy-right text-center">
+                        <p>Copyright Coxsbazarnews 2020 | Developed By Bangla Newspaper</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+
+    <!-- video gallery -->
+    <script>
+        var videoPlayer = document.getElementById("videoPlayer");
+        var myVideo = document.getElementById("myVideo");
+
+        function stopVideo(){
+            videoPlayer.style.display = "none";
+        }
+
+        function playVideo(file){
+            myVideo.src = file;
+            videoPlayer.style.display = "block";
+        }
+
+    </script>
+    <!-- search popup -->
+    <script>
+        function openSearch() {
+          document.getElementById("myOverlay").style.display = "block";
+        }
+        
+        function closeSearch() {
+          document.getElementById("myOverlay").style.display = "none";
+        }
+        </script>
+   
+  </body>
+</html>
